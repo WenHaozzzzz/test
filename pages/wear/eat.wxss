@@ -1,0 +1,41 @@
+/* pages/eat/eat.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 30px;
+  background-color: #f0f0f0;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px; /* 调整为适当间距 */
+}
+
+.text-display {
+  font-size: 18px;
+  padding: 10px 0; /* 增加上下内边距，左右内边距设置为0 */
+  width: 80%;
+  border: none; /* 移除边框 */
+  background-color: #fff;
+  text-align: center;
+  border-radius: 20px; /* 增加圆角 */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 细微的阴影效果 */
+  margin-bottom: 30px; /* 与按钮间距离 */
+}
+
+.action-button {
+  background-color: #ffe0b2;
+  color: #333;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 40px; /* 增加内边距 */
+  font-size: 16px; /* 文本字号 */
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  outline: none; /* 移除焦点时的轮廓 */
+}

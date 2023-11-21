@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/longimage/longimage", 
+    "pages/menu/menu",
+    "pages/eat/eat",
+    "pages/drink/drink",
+    "pages/wear/wear",
+    "pages/play/play"
+
+  ]
+
+}

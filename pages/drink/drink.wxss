@@ -1,0 +1,35 @@
+/* pages/drink/drink.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-display {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  text-align: center;
+}
+
+.action-button {
+  background-color: #1aad19; /* WeChat green */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+/* pages/longImage/longImage.wxss */
+.full-image-container {
+  width: 100vw; /* 宽度为100%视口宽度 */
+  height: 100vh; /* 高度为100%视口高度 */
+  margin: 0; /* 移除边距 */
+  padding: 0; /* 移除内边距 */
+  overflow: hidden; /* 隐藏溢出的内容 */
+}
+
+.full-image-container image {
+  width: 100%; /* 图片宽度为100% */
+  height: 100%; /* 图片高度为100% */
+  object-fit: cover; /* 图片封面填充，保持宽高比，可能会被裁剪 */
+}

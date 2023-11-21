@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/drink/drink",
+    "pages/play/play" 
+    
+  ]
+
+}

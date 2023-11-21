@@ -1,0 +1,4 @@
+<!-- pages/longImage/longImage.wxml -->
+<view class="full-image-container" bindtap="navigateToMenu">
+  <image src="/images/bg.jpg" mode="widthFix"></image>
+</view>

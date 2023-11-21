@@ -1,0 +1,7 @@
+<!-- pages/eat/eat.wxml -->
+<view class="container">
+  <view class="title">Yuki今天吃什么</view>
+  <view class="text-display">请按</view>
+  <button class="action-button" bindtap="toggleScroll">{{ buttonText }}</button>
+
+</view>

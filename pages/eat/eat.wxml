@@ -1,0 +1,6 @@
+<!-- pages/eat/eat.wxml -->
+<view class="container">
+  <view class="title">今天吃什么</view>
+  <view class="food-display">{{ food }}</view>
+  <button class="choose-button" bindtap="toggleScroll">{{ buttonText }}</button>
+</view>

@@ -1,0 +1,35 @@
+<!-- pages/menu/menu.wxml -->
+<view class="menu-container">
+  <view class="option-group">
+    <view class="menu-option" bindtap="navigateToEat">
+      <image src="/images/eat.png" class="option-icon"></image>
+      <text>EAT</text>
+      <text>吃什么</text>
+    </view>
+    <view class="menu-option" bindtap="navigateToDrink">
+      <image src="/images/he.png" class="option-icon"></image>
+      <text>DRINK</text>
+      <text>喝什么</text>
+    </view>
+  </view>
+  <view class="option-group">
+    <view class="menu-option" bindtap="navigateToPlay">
+      <image src="/images/wan.png" class="option-icon"></image>
+      <text>PLAY</text>
+      <text>玩什么</text>
+    </view>
+    <view class="menu-option" bindtap="navigateToWear">
+      <image src="/images/chuan.png" class="option-icon"></image>
+      <text>WEAR</text>
+      <text>穿什么</text>
+    </view>
+  </view>
+  <view class="banner">
+    <!-- Banner内容，可以是图片或者文本 -->
+    <text>Banner Text or Image Here</text>
+  </view>
+</view>
+<view class="banner">
+  <image src="/images/banner-image.jpg" style="width: 30%;"></image>
+  <!-- 可以添加其他文本或内容 -->
+</view>

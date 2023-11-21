@@ -1,0 +1,64 @@
+/* pages/menu/menu.wxss */
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* 改为 center 以使内容居中 */
+  min-height: 100vh;
+  padding: 20px;
+  padding-top: 20vh; /* 减少顶部填充值，让选项框位置更靠下 */
+  background-image: url('https://7975-yuki-0ghcwozl4f7e8c00-1322590859.tcb.qcloud.la/bg_3.png?sign=de9733045c05a58f8264784b52cf2ec9&t=1700553348'); /* 确保图片路径正确 */
+  background-size: cover;
+  background-position: center center;
+  box-sizing: border-box;
+}
+
+.option-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 0.1vh; /* 为选项组之间添加垂直间隔 */
+}
+
+.menu-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55%; /* 两个选项框各占一行宽度的45% */
+  margin: 1vh; /* 调整间距，确保选项框之间有适当空间 */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.option-icon {
+  width: 54px; /* 调整图标大小 */
+  height: 54px;
+  margin-bottom: 10px;
+}
+
+.menu-option text {
+  font-size: 14px;
+  color: #333;
+  margin: 5px 0;
+}
+
+.menu-option text:nth-child(2) {
+  font-weight: bold;
+}
+
+/* 其他样式保持不变 */
+
+.banner {
+  width: 50%;
+  padding: 3px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background-image: url(''); /* 设置 banner 的背景图片 */
+  background-size: cover; /* 背景图片覆盖整个 banner */
+  background-position: center center; /* 背景图片居中显示 */
+}

@@ -1,0 +1,8 @@
+<!-- pages/wear/wear.wxml -->
+<view class="container">
+  <view class="title">Yuki明天穿什么</view>
+  <view class="outfit-display">{{ outfit }}</view>
+ <!-- pages/wear/wear.wxml -->
+<button class="choose-button" bindtap="toggleClothesScroll">{{ buttonText }}</button>
+
+</view>

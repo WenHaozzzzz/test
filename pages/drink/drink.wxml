@@ -1,0 +1,6 @@
+<!-- pages/drink/drink.wxml -->
+<view class="container">
+  <view class="title">Yuki今天喝什么</view>
+  <view class="text-display">{{ itemName }}</view>
+  <button class="action-button" bindtap="toggleScroll">{{ buttonText }}</button>
+</view>

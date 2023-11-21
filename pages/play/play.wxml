@@ -1,0 +1,8 @@
+<!-- pages/play/play.wxml -->
+<view class="container">
+  <view class="header">Yuki今天玩什么</view>
+  <view class="activity-display">{{ activityName }}</view>
+ <!-- pages/play/play.wxml -->
+<button class="choose-button" bindtap="toggleActivityScroll">{{ buttonText }}</button>
+
+</view>
